@@ -33,7 +33,7 @@ all_API = [TAVILY_API_KEY, GROQ_API_KEY, GOOGLE_API_KEY]
 if not all(all_API):
     st.error("Must give API keys")
     st.stop()
-elif all(all_api):
+elif all(all_API):
     st.success("API KEYS LOADED SUCCESSFULLY")
 else:
     st.info("PASS ALL API-KEYS")
