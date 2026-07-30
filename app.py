@@ -25,9 +25,9 @@ st.sidebar.image("bg.png")
 
 #=========API KEYS================
 # Step 2: API Keys
-TAVILY_API_KEY = "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"
-GOOGLE_API_KEY = "AQ.Ab8RN6JwRM6VAtsJdZxOxJLBkQitUMBz3YaRuCH4CCzFZYLyag"
-GROQ_API_KEY = "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"
+TAVILY_API_KEY = st.sidebar.text_input("Tavily-API", type = "password")
+GOOGLE_API_KEY = st.sidebar.text_input("Gemini-API", type = "password")
+GROQ_API_KEY = st.sidebar.text_input("Groq-API", type = "password")
 
 #=======================MODEL==========
 model = ChatGoogleGenerativeAI(
