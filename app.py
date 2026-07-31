@@ -19,9 +19,9 @@ st.set_page_config(layout="wide")
 st.title("AI RESUME GENERATOR")
 st.write("""This app helps user to build customized Professional
 Resume with Latest Job apply links""")
-st.image("bg.png")
+st.image("https://raw.githubusercontent.com/bhuvneeshsikka1-dotcom/Agent-Resume/refs/heads/main/bg.png")
 st.sidebar.title("Fill Important Details")
-st.sidebar.image("bg.png")
+st.sidebar.image("https://raw.githubusercontent.com/bhuvneeshsikka1-dotcom/Agent-Resume/refs/heads/main/bg.png")
 
 #=========API KEYS================
 # Step 2: API Keys
